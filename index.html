@@ -5,6 +5,26 @@
         <meta charset="utf-8">
     </head>
     <body>
-        
+     
+        <div class='form-popup' id='myForm'>
+            <form>
+                <h2>Enter book Information</h2>
+
+                <label for="title"><b>Title</b></label>
+                <input type='text' placeholder="Enter the title" name='title' required>
+
+                <label for='author'><b>Author</b></label>
+                <input type="text" placeholder="Enter author's name" name='title' required>
+
+                <label for='pages'><b>Pages</b></label>
+                <input type="number" name='pages' required>
+
+                <label for='isRead'><b>Have you finished the book?</b></label>
+                <input type='checkbox' name='isRead'>
+
+                <button type='submit'>Add</button>
+                <button type='button'>Cancel</button>
+            </form>
+        </div>
     </body>
 </html>
